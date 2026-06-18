@@ -1,0 +1,25 @@
+# Local env file containing API keys
+.env
+
+# Vector Database (re-generated on runtime)
+chroma_db/
+
+# Local SQLite analysis history
+analysis_history.db
+
+# PDF reports and test assets
+*.pdf
+resumes/
+jobs/
+!resumes/.gitkeep
+!jobs/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Streamlit config
+.streamlit/
